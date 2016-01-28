@@ -12,9 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "This is  my changing", Toast.LENGTH_LONG).show();
-        Toast.makeText(this,"This is  my changing",Toast.LENGTH_LONG).show();
-        Toast.makeText(this,"This is  my changing",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"This is chaning in  my Source Code",Toast.LENGTH_LONG).show();
     }
 
     @Override
